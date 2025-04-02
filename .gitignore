@@ -1,0 +1,50 @@
+# Diretórios do Visual Studio
+.vs/
+.vscode/
+
+# Build outputs
+bin/
+obj/
+out/
+
+# Dependências locais do NuGet
+*.nuget.props
+*.nuget.targets
+packages/
+!packages/repositories.config
+
+# Configuração do usuário
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# Arquivos do sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Logs, lock e cache
+*.log
+*.lock
+*.cache
+*.seed
+*.pid
+
+# Configurações do ambiente local
+.env
+.env.local
+
+# Arquivos gerados pelo Entity Framework
+Migrations/
+
+# Configuração de SSH e chaves privadas (caso use)
+id_rsa*
+id_ed25519*
+
+# Arquivos do Rider (caso use)
+.idea/
+*.iml
